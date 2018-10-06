@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.textfield_demo) {
             fragmentManager.beginTransaction().replace(R.id.frame_me, texfield).commit();
         } else if (id == R.id.toogle_demo) {
-
+            fragmentManager.beginTransaction().replace(R.id.frame_me, toogle).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
